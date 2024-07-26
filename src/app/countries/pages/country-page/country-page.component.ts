@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-country-page',
   templateUrl: './country-page.component.html',
-  styles: ``
+  styles: []
 })
-export class CountryPageComponent {
+export class CountryPageComponent implements OnInit{
+
+  constructor( activatedRoute: ActivatedRoute ){}
+
+  
 
 }
