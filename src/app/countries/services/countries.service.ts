@@ -16,7 +16,6 @@ export class CountriesService {
       catchError(
         () => of ([]),
       ),
-      delay(2000),
     );
   }
 

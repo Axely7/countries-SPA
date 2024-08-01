@@ -9,6 +9,7 @@ import { CountriesService } from '../../services/countries.service';
 })
 export class ByRegionPageComponent {
   public regions: Country[] = [];
+  public regionsC = ["Africa", "Americas", "Asia", "Europe", "Oceania"];
 
   constructor(private countriesService: CountriesService){}
 
