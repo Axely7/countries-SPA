@@ -1,3 +1,4 @@
 <!-- (keyup.enter)="emitValue(txtInput.value)" -->
 
-<input type="text" [placeholder]="placeholder" (keyup)="onKeyPressed(txtInput.value)" class="form-control" #txtInput>
+<input type="text" [placeholder]="placeholder" [value]="initialValue" (keyup)="onKeyPressed(txtInput.value)"
+  class="form-control" #txtInput>
